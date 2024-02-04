@@ -1,0 +1,345 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.739);
+    color: white;
+}
+
+header {
+    position: relative;
+}
+
+header::before {
+    background-color: black;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.btn {
+    height: 35px;
+    width: 85px;
+    border-radius: 7px;
+    background-color: deeppink;
+    border: 1px solid deeppink;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.7);
+
+}
+
+#Home::before {
+    background: url('https://images.unsplash.com/photo-1532012197267-da84d127e765?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    content: "";
+    height: 55%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.navegation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    height: 273px;
+    margin: 0px 200px;
+}
+
+nav ul>li {
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Salsa', cursive;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+li a:hover {
+    color: rgba(11, 139, 66, 0.83);
+    transition: all ease 0.2s;
+    text-decoration: underline;
+    background-color: white;
+
+}
+
+li a:active {
+    color: rgb(11, 58, 230);
+
+}
+
+#navber {
+    position: relative;
+
+}
+
+/*...our books..*/
+.center {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#our-books {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    margin-top: 47px;
+}
+
+#our-books div>img {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+#our-books div>p {
+    padding: 0px 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.book1 {
+    height: 325px;
+    width: 415px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 17px;
+}
+
+.book2 {
+    height: 325px;
+    width: 415px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 17px;
+}
+
+
+
+.book3 {
+    height: 325px;
+    width: 415px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 17px;
+
+}
+
+#our-books div:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 17px white;
+    transition: all ease-in-out 0.5s;
+
+
+}
+
+.book1:hover h2 {
+    color: lightgoldenrodyellow;
+    transition: all ease 0.5s;
+}
+
+.book2:hover h2 {
+    color: rgba(238, 67, 52, 0.849);
+    transition: all ease 0.5s;
+}
+
+.book3:hover h2 {
+    color: rgba(15, 114, 227, 0.931);
+    transition: all ease 0.5s;
+}
+
+/* benifits of reading   */
+div h1 {
+    margin-top: 85px;
+}
+
+div ul li {
+    margin-left: 80px;
+    font-size: 1.5rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+div h1 {
+    display: inline-block;
+    margin-left: 90px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.67;
+    z-index: -1;
+    background: url('pexel1.jpeg') no-repeat center center/cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.contact-group input {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 7px;
+}
+
+#contact-box textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border-radius: 7px ;
+
+}
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+font-size: 21px;
+font-family: 'Exo 2', sans-serif;
+}
+.btn1{
+    background-color: rgb(20, 20, 42);
+    width: 104.5%;
+    padding: 0.7rem;
+    border-radius: 7px ;
+    font-family:fantasy;
+    color: white;
+   
+}
+.btn1:hover{
+    background-color: fuchsia;
+    color:rgb(20, 20, 42);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+
+/*media..*/
+@media (min-width:706px) and (max-width:1260px){
+    #Home::before{
+        height: 63%;
+    }
+    
+    #Home{
+        margin: 0px 80px
+    }
+    #our-books{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .book2{
+        margin: 15px 0;
+    }
+
+}
+#Home {
+    margin: 0px 80px;
+}
+@media (min-width:460px) and (max-width:706px){
+
+    nav ul>li{
+        font-size: 15px;
+    }
+    .navegation h1 {
+        font-size: 17px;
+    }
+    #Home {
+        margin: 0px 30px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+    #our-books {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .book2{
+        margin: 15px 0;
+    }
+}
+@media (min-width: 0px) and (max-width:431px){
+    .navegation{
+        padding: 0px;
+    }
+    nav ul>li {
+        font-size: 15px;
+    }
+    #our-books {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #Home {
+        margin: 0px 23px;
+    }
+    .book2{
+        margin: 15px 0;
+    }
+    .book1 {
+        height: 370px;
+        width: 385px;
+    }
+    .book2 {
+        height: 370px;
+        width: 385px;
+    }
+    .book3 {
+        height: 370px;
+        width: 385px;
+    }
+}
